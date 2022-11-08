@@ -6,6 +6,14 @@ This repo will be in sporadic development, as there are a number of issues with 
 See the following papers for details:
  - [Trainable frontend for robust and far-field keyword spotting](10.1109/ICASSP.2017.7953242)
  - [Per-Channel Energy Normalization: Why and How](10.1109/LSP.2018.2878620)
+ 
+## Installation
+Navigate to repo and run:
+``` sh
+pip install -e .
+```
+
+`
 
 ## Usage
 
