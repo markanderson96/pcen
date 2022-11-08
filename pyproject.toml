@@ -1,0 +1,19 @@
+[build-system]
+requires = ["flit_core>=3.2", "torch>=1.11", "torchaudio>=0.11", "numpy>=1.20"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pcen"
+version = "0.1.0"
+authors = [
+  { name="Mark Anderson", email="andersm3@tcd.ie" },
+]
+description = "Fully trainable PCEN layer for use with PyTorch"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
